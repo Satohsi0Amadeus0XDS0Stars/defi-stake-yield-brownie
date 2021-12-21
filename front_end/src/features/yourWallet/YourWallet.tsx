@@ -30,7 +30,6 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 export const YourWallet = ({ supportedTokens }: YourWalletProps) => {
-  // wtf is this? 
   // Reacts way of holding state between components 
   // Could do it without <number> 
   // saving state between renders of components 
